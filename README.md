@@ -1,16 +1,44 @@
-# React + Vite
+# Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app for tracking personal expenses — add, delete, and see a running total of your spending.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add an expense with a description, category, and amount
+- Delete individual expenses
+- Automatically calculates and displays the total amount spent
+- Responsive layout for mobile and desktop
 
-## React Compiler
+## Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- CSS
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+```bash
+   git clone https://github.com/Mojoyinola03/expense-tracker.git
+```
+
+2. Move into the project folder
+```bash
+   cd expense-tracker
+```
+
+3. Install dependencies
+```bash
+   npm install
+```
+
+4. Start the development server
+```bash
+   npm run dev
+```
+
+5. Open the local URL shown in your terminal (usually `http://localhost:5173`)
+
+## Author
+
+Built by [Mojoyinola] as a personal project.
